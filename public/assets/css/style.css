@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,17 +59,42 @@ a, a:hover, a:focus, a:active {
   color: inherit; }
 
 @font-face {
-  font-family: 'Uni Sans';
-  src: url(../../assets/font/uni-sans-heavy.ttf) format("truetype"), url(../../assets/font/uni-sans-heavy.eot), url(../../assets/font/uni-sans-heavy.woff) format("woff"), url(../../assets/font/uni-sans-heavy.svg) format("svg"); }
+  font-family: 'Gotham Black';
+  src: url(/assets/font/GothamBlack/Gotham-Black.ttf) format("truetype"), url(/assets/font/GothamBlack/Gotham-Black.eot), url(/assets/font/GothamBlack/Gotham-Black.woff) format("woff"), url(/assets/font/GothamBlack/Gotham-Black.woff2), url(/assets/font/GothamBlack/Gotham-Black.svg) format("svg"); }
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url(/assets/font/GothamBold/GothamBoldRegular.ttf) format("truetype"), url(/assets/font/GothamBold/GothamBoldRegular.eot), url(/assets/font/GothamBold/GothamBoldRegular.woff) format("woff"), url(/assets/font/GothamBold/GothamBoldRegular.woff2), url(/assets/font/GothamBold/GothamBoldRegular.svg) format("svg"); }
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url(/assets/font/GothamBook/GothamBookRegular.ttf) format("truetype"), url(/assets/font/GothamBook/GothamBookRegular.eot), url(/assets/font/GothamBook/GothamBookRegular.woff) format("woff"), url(/assets/font/GothamBook/GothamBookRegular.woff2), url(/assets/font/GothamBook/GothamBookRegular.svg) format("svg"); }
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url(/assets/font/GothamLightRegular/GothamLightRegular.ttf) format("truetype"), url(/assets/font/GothamLightRegular/GothamLightRegular.eot), url(/assets/font/GothamLightRegular/GothamLightRegular.woff) format("woff"), url(/assets/font/GothamLightRegular/GothamLightRegular.woff2), url(/assets/font/GothamLightRegular/GothamLightRegular.svg) format("svg"); }
+
+@font-face {
+  font-family: 'Gotham Extra Light';
+  src: url(/assets/font/GothamExtraLight/GothamExtraLight.ttf) format("truetype"), url(/assets/font/GothamExtraLight/GothamExtraLight.eot), url(/assets/font/GothamExtraLight/GothamExtraLight.woff) format("woff"), url(/assets/font/GothamExtraLight/GothamExtraLight.woff2), url(/assets/font/GothamExtraLight/GothamExtraLight.svg) format("svg"); }
+
+@font-face {
+  font-family: 'SFSports Night NS';
+  src: url(/assets/font/SFSportsNightNS.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'SFSports Night Upright';
+  src: url(/assets/font/SFSportsUpright.ttf) format("truetype"); }
 
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-family: "Gotham Light", sans-serif;
+  font-size: 16px;
   font-weight: 300;
   color: #333; }
-  @media (min-width: 2000px) {
-    html {
-      font-size: 20px; } }
+
+p {
+  font-family: "Gotham Light", sans-serif;
+  font-size: 16px; }
 
 b {
   font-weight: bold;

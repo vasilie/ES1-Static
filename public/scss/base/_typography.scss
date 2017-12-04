@@ -1,25 +1,79 @@
-$text__family--Roboto:  'Roboto', sans-serif;
-$text__family--UniSans:  'Uni Sans', sans-serif;
-$base__font-size: 15px !default;
+$GothamBlack:  'Gotham Black', sans-serif;
+$GothamBold:  'Gotham Bold', sans-serif;
+$GothamBook:  'Gotham Book', sans-serif;
+$GothamLight:  'Gotham Light', sans-serif;
+$GothamExLight:  'Gotham Extra Light', sans-serif;
+$SFNS:  'SFSports Night NS', sans-serif;
+$SFUP:  'SFSports Night Upright', sans-serif;
+
+$base__font-size: 16px !default;
 $base__line: 20 !default;
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 
 @font-face {
-    font-family: 'Uni Sans';
-    src: url(../../assets/font/uni-sans-heavy.ttf) format('truetype'),
-         url(../../assets/font/uni-sans-heavy.eot),
-         url(../../assets/font/uni-sans-heavy.woff) format("woff"),
-         url(../../assets/font/uni-sans-heavy.svg) format("svg");
+    font-family: 'Gotham Black';
+    src: url(#{$assetPath}/font/GothamBlack/Gotham-Black.ttf) format('truetype'),
+         url(#{$assetPath}/font/GothamBlack/Gotham-Black.eot),
+         url(#{$assetPath}/font/GothamBlack/Gotham-Black.woff) format("woff"),
+         url(#{$assetPath}/font/GothamBlack/Gotham-Black.woff2),
+         url(#{$assetPath}/font/GothamBlack/Gotham-Black.svg) format("svg"),
+}
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url(#{$assetPath}/font/GothamBold/GothamBoldRegular.ttf) format('truetype'),
+         url(#{$assetPath}/font/GothamBold/GothamBoldRegular.eot),
+         url(#{$assetPath}/font/GothamBold/GothamBoldRegular.woff) format("woff"),
+         url(#{$assetPath}/font/GothamBold/GothamBoldRegular.woff2),
+         url(#{$assetPath}/font/GothamBold/GothamBoldRegular.svg) format("svg"),
+}
+@font-face {
+    font-family: 'Gotham Book';
+    src: url(#{$assetPath}/font/GothamBook/GothamBookRegular.ttf) format('truetype'),
+         url(#{$assetPath}/font/GothamBook/GothamBookRegular.eot),
+         url(#{$assetPath}/font/GothamBook/GothamBookRegular.woff) format("woff"),
+         url(#{$assetPath}/font/GothamBook/GothamBookRegular.woff2),
+         url(#{$assetPath}/font/GothamBook/GothamBookRegular.svg) format("svg"),
+}
+@font-face {
+    font-family: 'Gotham Light';
+    src: url(#{$assetPath}/font/GothamLightRegular/GothamLightRegular.ttf) format('truetype'),
+         url(#{$assetPath}/font/GothamLightRegular/GothamLightRegular.eot),
+         url(#{$assetPath}/font/GothamLightRegular/GothamLightRegular.woff) format("woff"),
+         url(#{$assetPath}/font/GothamLightRegular/GothamLightRegular.woff2),
+         url(#{$assetPath}/font/GothamLightRegular/GothamLightRegular.svg) format("svg"),
+}
+@font-face {
+    font-family: 'Gotham Extra Light';
+    src: url(#{$assetPath}/font/GothamExtraLight/GothamExtraLight.ttf) format('truetype'),
+         url(#{$assetPath}/font/GothamExtraLight/GothamExtraLight.eot),
+         url(#{$assetPath}/font/GothamExtraLight/GothamExtraLight.woff) format("woff"),
+         url(#{$assetPath}/font/GothamExtraLight/GothamExtraLight.woff2),
+         url(#{$assetPath}/font/GothamExtraLight/GothamExtraLight.svg) format("svg"),
+}
+@font-face {
+    font-family: 'SFSports Night NS';
+    src: url(#{$assetPath}/font/SFSportsNightNS.ttf) format("truetype"),
+         // url(#{$assetPath}/font/uni-sans-heavy.eot),
+         // url(#{$assetPath}/font/uni-sans-heavy.woff) format("woff"),
+         // url(#{$assetPath}/font/uni-sans-heavy.svg) format("svg");
+}
+@font-face {
+    font-family: 'SFSports Night Upright';
+    src: url(#{$assetPath}/font/SFSportsUpright.ttf) format("truetype"),
+         // url(#{$assetPath}/font/uni-sans-heavy.eot),
+         // url(#{$assetPath}/font/uni-sans-heavy.woff) format("woff"),
+         // url(#{$assetPath}/font/uni-sans-heavy.svg) format("svg");
 }
 html {
-  font-family: $text__family--Roboto;
+  font-family: $GothamLight;
 	font-size: $base__font-size;
   font-weight:300;
   color: #333;
-  @include breakpoint(large){
-    font-size:20px;
-  }
+}
+p {
+  // font-family: $GothamBlack;
+  font-family: $GothamLight;
+  font-size: $base__font-size;
 }
 b {
   font-weight: bold;
