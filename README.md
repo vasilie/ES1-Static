@@ -1,5 +1,5 @@
 # ES1 Static
-Static version of ES1
+Static version of ESport One
 
 ## Getting Started
 
