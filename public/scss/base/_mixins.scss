@@ -1,10 +1,22 @@
 //----- Font Size
 
-// Example @include font-size(10px, 20px, 30px);
+// px Font Size
+@mixin font-size($fz-mobile, $fz-tablet, $fz-desktop) {
+  @include breakpoint(mobile) {
+    font-size: #{$fz-mobile}px;
+  }
+  @include breakpoint(tablet){
+    font-size: #{$fz-tablet}px;
+  }
+  @include breakpoint(desktop){
+    font-size: #{$fz-desktop}px;
+  }
+}
+
 // rem Font Size
-@mixin font-size($fz-phone, $fz-tablet, $fz-desktop) {
-  @include breakpoint(phone) {
-    font-size: cr($fz-phone);
+@mixin font-size-rem($fz-mobile, $fz-tablet, $fz-desktop) {
+  @include breakpoint(mobile) {
+    font-size: cr($fz-mobile);
   }
   @include breakpoint(tablet){
     font-size: cr($fz-tablet);
@@ -15,16 +27,16 @@
 }
 
 // vw Font Size for HTML
-@mixin font-size-vw($fz-phone, $fz-tablet, $fz-desktop) {
+@mixin font-size-vw($fz-mobile, $fz-tablet, $fz-desktop) {
   font-size: 16px;
-  @include breakpoint(phone) {
-    font-size: cvw($fz-phone, $site-mob-design);
+  @include breakpoint(mobile) {
+    font-size: cvw($fz-mobile, 640);
   }
-  @include breakpoint(overPhone) {
-    font-size: cvw($fz-tablet, $site-tab-design);
+  @include breakpoint(tablet) {
+    font-size: cvw($fz-tablet, 768);
   }
   @include breakpoint(desktop){
-    font-size: cvw($fz-desktop, $site-desk-design);
+    font-size: cvw($fz-desktop, 1600);
   }
 }
 
@@ -32,9 +44,9 @@
 
 // Example @include line-height(10px, 20px, 30px);
 // rem Line-Height
-@mixin line-height($fz-phone, $fz-tablet, $fz-desktop) {
-  @include breakpoint(phone) {
-    line-height: cr($fz-phone);
+@mixin line-height($fz-mobile, $fz-tablet, $fz-desktop) {
+  @include breakpoint(mobile) {
+    line-height: cr($fz-mobile);
   }
   @include breakpoint(tablet) {
     line-height: cr($fz-tablet);
@@ -45,7 +57,7 @@
 }
 
 //----- Letter spacing
-@mixin letter-spacing($ls) {
+@mixin ls($ls) {
   letter-spacing: calcLS($ls);
 }
 

@@ -1,0 +1,35 @@
+.b-footer{
+	background: $color-mineShaft;
+	padding: 0.4rem 1rem;
+	text-align: center;
+	@include breakpoint(tablet){
+		padding: 0.4rem 0.4rem;
+	}	
+	&__list{
+		@include breakpoint(tablet){
+			display: flex;
+			justify-content: space-around;
+		}	
+		@include breakpoint(desktop){
+			max-width: 33.5rem;
+			margin: auto;
+		}	
+	}
+	&__link{
+		font-family: $GothamBlack;
+		text-transform: uppercase;
+		color: $color-white;
+		@include font-size(12,11,11);
+		margin: 5.8rem 0;
+		display: block;
+		letter-spacing: cr(5.2);
+		@include breakpoint(tablet){
+			letter-spacing: cr(2.1);
+			margin: 3.5rem 0;
+		}
+		@include breakpoint(desktop){
+			letter-spacing: cr(2);
+			margin: 1.5rem 0;
+		}
+	}
+}

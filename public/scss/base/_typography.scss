@@ -66,11 +66,10 @@ $base__line: 20 !default;
 }
 html {
   font-family: $GothamLight;
-  font-size: $base__font-size;
-  font-weight:300;
-  color: #333;
-  @include font-size-vw($base__font-size, $base__font-size, $base__font-size);
-  @include breakpoint(siteMaxWidth){
+  color: #333;  
+  -webkit-font-smoothing: antialiased;
+  @include font-size-vw(16,16,16);
+  @include breakpoint(large){
     font-size: 16px;
   }
 }

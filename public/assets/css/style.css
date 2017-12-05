@@ -88,10 +88,21 @@ a, a:hover, a:focus, a:active {
 
 html {
   font-family: "Gotham Light", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
   color: #333;
+  -webkit-font-smoothing: antialiased;
   font-size: 16px; }
+  @media (max-width: 767px) {
+    html {
+      font-size: 2.5vw; } }
+  @media (min-width: 768px) {
+    html {
+      font-size: 2.08333vw; } }
+  @media (min-width: 1025px) {
+    html {
+      font-size: 1vw; } }
+  @media (min-width: 1700px) {
+    html {
+      font-size: 16px; } }
 
 p {
   font-family: "Gotham Light", sans-serif;
@@ -99,3 +110,43 @@ p {
 
 strong, b {
   font-weight: bold; }
+
+.b-footer {
+  background: #1f1f1f;
+  padding: 0.4rem 1rem;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .b-footer {
+      padding: 0.4rem 0.4rem; } }
+  @media (min-width: 768px) {
+    .b-footer__list {
+      display: flex;
+      justify-content: space-around; } }
+  @media (min-width: 1025px) {
+    .b-footer__list {
+      max-width: 33.5rem;
+      margin: auto; } }
+  .b-footer__link {
+    font-family: "Gotham Black", sans-serif;
+    text-transform: uppercase;
+    color: #ffff;
+    margin: 5.8rem 0;
+    display: block;
+    letter-spacing: 0.325rem; }
+    @media (max-width: 767px) {
+      .b-footer__link {
+        font-size: 12px; } }
+    @media (min-width: 768px) {
+      .b-footer__link {
+        font-size: 11px; } }
+    @media (min-width: 1025px) {
+      .b-footer__link {
+        font-size: 11px; } }
+    @media (min-width: 768px) {
+      .b-footer__link {
+        letter-spacing: 0.13125rem;
+        margin: 3.5rem 0; } }
+    @media (min-width: 1025px) {
+      .b-footer__link {
+        letter-spacing: 0.125rem;
+        margin: 1.5rem 0; } }

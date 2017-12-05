@@ -5,7 +5,7 @@
 
 //-----  Calc px to rem
 @function cr($size) {
-  $remSize: $size / $base__font-size;
+  $remSize: $size / 16;
   @return #{$remSize}rem;
 }
 
