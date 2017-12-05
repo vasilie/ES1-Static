@@ -9,4 +9,13 @@
 	@include breakpoint(desktop){
 		padding: 0 0.9%;
 	}
+	&__wrap{
+		.c-section__title{
+			max-width: 60%;
+			margin: auto;
+			@include breakpoint(tablet){
+				max-width: 100%;
+			}
+		}
+	}
 }

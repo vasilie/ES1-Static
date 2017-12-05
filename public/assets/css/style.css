@@ -166,26 +166,55 @@ strong, b {
   @media (min-width: 1025px) {
     .b-latest {
       padding: 0 0.9%; } }
+  .b-latest__wrap .c-section__title {
+    max-width: 60%;
+    margin: auto; }
+    @media (min-width: 768px) {
+      .b-latest__wrap .c-section__title {
+        max-width: 100%; } }
 
 .c-section__title {
   font-family: "SFSports Night Upright", sans-serif;
   text-align: center;
   padding: 3rem 0;
-  text-shadow: -2px -2px 0.1px rgba(22, 165, 222, 0.8), 2px 2px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 76px rgba(22, 165, 222, 0.7);
+  text-shadow: -1px -1px 0.1px rgba(22, 165, 222, 0.8), 1px 1px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 72px rgba(22, 165, 222, 0.7);
+  -webkit-text-stroke: 0.09rem rgba(22, 165, 222, 0.8);
   color: #000;
   text-transform: uppercase;
   position: relative; }
   @media (max-width: 767px) {
     .c-section__title {
-      font-size: 20px; } }
+      font-size: 32px; } }
   @media (min-width: 768px) {
     .c-section__title {
-      font-size: 11px; } }
+      font-size: 65px; } }
   @media (min-width: 1025px) {
     .c-section__title {
-      font-size: 75px; } }
+      font-size: 80px; } }
+  @media (max-width: 767px) {
+    .c-section__title {
+      line-height: 3.375rem; } }
+  @media (min-width: 768px) {
+    .c-section__title {
+      line-height: 3.75rem; } }
+  @media (min-width: 1025px) {
+    .c-section__title {
+      line-height: 4.6875rem; } }
+  @media (min-width: 768px) {
+    .c-section__title {
+      padding: 1.4rem 0; } }
+  @media (min-width: 1025px) {
+    .c-section__title {
+      padding: 0.8rem 0; } }
   .c-section__title__wrap {
-    position: relative; }
+    position: relative;
+    margin-bottom: 3.3rem; }
+    @media (min-width: 768px) {
+      .c-section__title__wrap {
+        margin-bottom: 3.7rem; } }
+    @media (min-width: 1025px) {
+      .c-section__title__wrap {
+        margin-bottom: 4.65rem; } }
   .c-section__title__circle {
     box-shadow: 0 0 115px 70px rgba(22, 165, 222, 0.2);
     border-radius: 100%;
@@ -208,9 +237,25 @@ body {
   font-family: "Gotham Bold", sans-serif;
   border: 1px solid #16a5de;
   box-shadow: inset 0 0 16px rgba(22, 165, 222, 0.76), 1px 0px 5px rgba(22, 165, 222, 0.63);
-  padding: 1rem;
+  text-shadow: 1px 1px 5px rgba(250, 250, 250, 0.9);
+  letter-spacing: 0.06rem;
+  padding: 1.3rem 2rem;
   border-radius: 4px;
-  position: relative; }
+  position: relative;
+  display: inline-block; }
+  @media (max-width: 767px) {
+    .c-btn {
+      font-size: 18px; } }
+  @media (min-width: 768px) {
+    .c-btn {
+      font-size: 11px; } }
+  @media (min-width: 1025px) {
+    .c-btn {
+      font-size: 11px; } }
+  @media (min-width: 768px) {
+    .c-btn {
+      letter-spacing: -0.01rem;
+      padding: 1rem 2.5rem; } }
 
 .o-latest {
   width: 48.5%;
