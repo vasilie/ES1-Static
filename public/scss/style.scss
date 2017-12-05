@@ -7,9 +7,9 @@ $assetPath: "/assets";
 @import "base/mixins";
 @import "base/typography";
 
+@import "helpers/h-helpers";
+
 @import "layout/main-layout";
-
-
 
 @import "blocks/header";
 @import "blocks/b-footer";
@@ -20,4 +20,4 @@ $assetPath: "/assets";
 
 @import "objects/o-latest";
 
-@import "helpers/h-helpers";
+@import "pages/page-homepage";

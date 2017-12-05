@@ -4,7 +4,7 @@
 	padding: 3rem 0;
 	@include font-size(32,65,80);
 	@include line-height(54,60,75);
-    text-shadow: -1px -1px 0.1px rgba(22, 165, 222, 0.8), 1px 1px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 72px rgba(22, 165, 222, 0.7); 
+    text-shadow: -1px -1px 0.1px rgba(22, 165, 222, 0.8), 1px 1px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 72px rgba(22, 165, 222, 0.7);
     -webkit-text-stroke: 0.09rem rgba(22, 165, 222, 0.8);
 	color: #000;
 	text-transform: uppercase;
@@ -37,8 +37,4 @@
 	    margin: auto;
 	    background: rgba(22, 165, 222, 0.2);
 	}
-}
-
-body{
-	background: black;
 }

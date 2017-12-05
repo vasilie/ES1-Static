@@ -4,3 +4,7 @@
   max-width: 1200px;
   margin:0 auto;
 }
+.wrapper--black {
+  @extend .wrapper;
+  background: black;
+}

@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   @extend .clearfix;
-  background: $color-mineShaft;
+  background: $color-black;
   height: 95px;
   border-bottom:1px solid $color-white;
   .wrapper {
@@ -33,20 +33,44 @@
   text-transform: uppercase;
   margin-right: 2.3%;
   // position: relative;
+  &:after {
+    content:"";
+    width: 100%;
+    position:relative;
+    display: block;
+    background: $color-orangina;
+    bottom: 15px;
+    height: 14px;
+    display: none;
+  }
+  a {
+    display: block;
+  }
   &:hover {
     .header__submenu {
       display: block;
     }
+    &:after {
+      display: block;
+    }
   }
+}
+.header__submenu__wrap {
+  position: absolute;
+  left:0;
+  width: 100vw;
+  background: $color-black;
 }
 .header__submenu {
   display: none;
-  position: absolute;
-  top:95px;
-  left:0;
-  background: red;
+  position: relative;
+  padding-left: 2.6%;
   width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .header__submenu__item {
+  margin-right: 4.9%;
   display: inline-block;
+  color:$color-orangina;
 }
