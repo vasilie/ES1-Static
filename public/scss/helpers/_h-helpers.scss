@@ -1,0 +1,46 @@
+.h-align-center{
+	text-align: center;
+}
+
+.h-d-only{
+	display: none;
+}
+.h-t-only{
+	display: none;
+}
+.h-m-hide{
+	display: none;
+}
+@include breakpoint(overPhone){
+	.h-t-only{
+		display: block;
+	}
+	.h-m-only{
+		display: none;
+	}
+	.h-t-hide{
+		display: none;
+	}
+	.h-m-hide{
+		display: block;
+	}
+}
+
+@include breakpoint(desktop){
+	.h-d-hide{
+		display: none !important;
+	}
+	.h-t-only{
+		display: none;
+	}
+	.h-d-only{
+		display: block;
+	}
+	.h-t-hide{
+		display: block;
+	}
+}
+
+.clearfix{
+	clear: both;
+}

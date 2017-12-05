@@ -1,0 +1,29 @@
+.c-section__title{
+	font-family: $SFUP;
+	text-align: center;
+	padding: 3rem 0;
+	@include font-size(20,11,75);
+    text-shadow: -2px -2px 0.1px rgba(22, 165, 222, .8), 2px 2px 0.1px rgba(22, 165, 222, .8), 3px 4px 76px rgba(22, 165, 222, 0.7); 
+	color: #000;
+	text-transform: uppercase;
+	position: relative;
+	&__wrap{
+		position: relative;
+	}
+	&__circle{
+		box-shadow: 0 0 115px 70px rgba(22, 165, 222, 0.2);
+	    border-radius: 100%;
+	    position: absolute;
+	    width: 27rem;
+	    height: 27rem;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    margin: auto;
+	    background: rgba(22, 165, 222, 0.2);
+	}
+}
+
+body{
+	background: black;
+}

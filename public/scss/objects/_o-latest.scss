@@ -1,0 +1,56 @@
+.o-latest{
+	width: 48.5%;
+	margin-bottom: 3.4rem;
+	@include breakpoint(tablet){
+		margin-bottom: 3rem;
+	}
+	@include breakpoint(desktop){
+		width: 23.8%;
+	}
+	&__img{
+		img{
+			width: 100%;
+		}
+	}
+	&__body{
+		padding: 1.3rem 3rem 0 0;
+		display: flex;
+		flex-flow: column nowrap;
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+		@include breakpoint(tablet){
+			padding: 1.2rem 5rem 0 0;
+		}
+		@include breakpoint(desktop){
+			padding: 0.9rem 0 0 0.3rem;
+   			max-width: 13rem;
+		}
+	}
+	&__tag{
+		font-family: $GothamBook;
+		@include font-size(9, 14, 7.5);
+		text-transform: uppercase;
+		letter-spacing: -0.03rem;
+	}
+	&__title{
+		@include font-size(15, 26, 23);
+		@include line-height(30, 30, 21);
+		text-transform: uppercase;
+		margin-top: 0.6rem;
+		font-family: $SFUP;
+		color: #54d7f6;
+		letter-spacing: 0.06rem;
+		@include breakpoint(tablet){
+			margin-top: 1rem;
+		}
+		@include breakpoint(desktop){
+			margin-top: 0.5rem;
+		}		
+	}
+	&__description{
+		font-size: 8px;
+		line-height: 12px;
+		margin-top: 0.7rem;
+	}
+}

@@ -1,0 +1,11 @@
+.c-btn{
+	text-align: center;
+	text-transform: uppercase;
+	color: $color-white;
+	font-family: $GothamBold;
+	border: 1px solid rgb(22, 165, 222);
+	box-shadow: inset 0 0 16px rgba(22, 165, 222, 0.76), 1px 0px 5px rgba(22, 165, 222, 0.63);
+	padding: 1rem;
+    border-radius: 4px;
+    position: relative;
+}

@@ -1,11 +1,19 @@
 $assetPath: "/assets";
 
 @import "base/reset";
+@import "base/variables";
 @import "base/breakpoints";
 @import "base/functions";
 @import "base/mixins";
 @import "base/typography";
-@import "base/variables";
 
 @import "blocks/header";
 @import "blocks/b-footer";
+@import "blocks/b-latest";
+
+@import "components/c-section-title";
+@import "components/c-buttons";
+
+@import "objects/o-latest";
+
+@import "helpers/h-helpers";
