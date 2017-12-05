@@ -1,56 +1,66 @@
-@mixin borderRadius($radius){
-	-webkit-border-radius: $radius !important;
-	-moz-border-radius: $radius !important;
-	-ms-border-radius: $radius !important;
-	-o-border-radius: $radius !important;
-	border-radius: $radius !important;
-}
-@mixin boxShadow($top, $left, $blur, $spread, $color, $inset: false) {
-  @if $inset {
-    -webkit-box-shadow:inset $top $left $blur $spread $color;
-    -moz-box-shadow:inset $top $left $blur $spread $color;
-    box-shadow:inset $top $left $blur $spread $color;
-  } @else {
-    -webkit-box-shadow: $top $left $blur $spread $color;
-    -moz-box-shadow: $top $left $blur $spread $color;
-    box-shadow: $top $left $blur $spread $color;
+//----- Font Size
+
+// Example @include font-size(10px, 20px, 30px);
+// rem Font Size
+@mixin font-size($fz-phone, $fz-tablet, $fz-desktop) {
+  @include breakpoint(phone) {
+    font-size: cr($fz-phone);
+  }
+  @include breakpoint(tablet){
+    font-size: cr($fz-tablet);
+  }
+  @include breakpoint(desktop){
+    font-size: cr($fz-desktop);
   }
 }
-@mixin transitionFor($type){
-	-webkit-transition: $type;
-	-o-transition: $type;
-	-ms-transition:$type;
-	transition: $type;
+
+// vw Font Size for HTML
+@mixin font-size-vw($fz-phone, $fz-tablet, $fz-desktop) {
+  font-size: 16px;
+  @include breakpoint(phone) {
+    font-size: cvw($fz-phone, $site-mob-design);
+  }
+  @include breakpoint(overPhone) {
+    font-size: cvw($fz-tablet, $site-tab-design);
+  }
+  @include breakpoint(desktop){
+    font-size: cvw($fz-desktop, $site-desk-design);
+  }
 }
-@mixin bounce(){
-	@-webkit-keyframes bounce {
-		0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
-	    50%  { -webkit-transform: translateY(15px); }
-	}
-	@-moz-keyframes bounce {
-		0%, 20%, 80%, 100%  { -moz-transform: translateY(0); }
-			50%  { -moz-transform: translateY(15px); }
-	}
-	@-o-keyframes bounce {
-		0%, 20%, 80%, 100%  { -o-transform: translateY(0); }
-			50%  { -o-transform: translateY(15px); }
-	}
-	@keyframes bounce {
-		0%, 20%, 80%, 100%  { transform: translateY(0); }
-			50%  { transform: translateY(15px); }
-	}
+
+//----- Line Height
+
+// Example @include line-height(10px, 20px, 30px);
+// rem Line-Height
+@mixin line-height($fz-phone, $fz-tablet, $fz-desktop) {
+  @include breakpoint(phone) {
+    line-height: cr($fz-phone);
+  }
+  @include breakpoint(tablet) {
+    line-height: cr($fz-tablet);
+  }
+  @include breakpoint(desktop) {
+    line-height: cr($fz-desktop);
+  }
 }
-@mixin return(){
-	@-webkit-keyframes bounce {
-		100%  { -webkit-transform: translateY(0); }
-	}
-	@-moz-keyframes bounce {
-		100%  { -moz-transform: translateY(0); }
-	}
-	@-o-keyframes bounce {
-		100%  { -o-transform: translateY(0); }
-	}
-	@keyframes bounce {
-		100%  { transform: translateY(0); }
-	}
+
+//----- Letter spacing
+@mixin letter-spacing($ls) {
+  letter-spacing: calcLS($ls);
+}
+
+
+// Placeholder
+// Example...
+// input {
+//   @include placeholder {
+//     color: white;
+//     font-size: 20px;
+//   }
+// }
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
 }

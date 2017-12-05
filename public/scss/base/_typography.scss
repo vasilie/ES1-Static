@@ -66,25 +66,19 @@ $base__line: 20 !default;
 }
 html {
   font-family: $GothamLight;
-	font-size: $base__font-size;
+  font-size: $base__font-size;
   font-weight:300;
   color: #333;
+  @include font-size-vw($base__font-size, $base__font-size, $base__font-size);
+  @include breakpoint(siteMaxWidth){
+    font-size: 16px;
+  }
 }
 p {
   // font-family: $GothamBlack;
   font-family: $GothamLight;
   font-size: $base__font-size;
 }
-b {
+strong, b{
   font-weight: bold;
-  font-weight: bold;
-  background: rgb(222, 222, 222);
-  color: black;
-  padding: 5px 9px;
-}
-.mobile-break {
-  display: none;
-  @include breakpoint(mobile) {
-    display: block;
-  }
 }

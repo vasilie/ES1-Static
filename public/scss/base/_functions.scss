@@ -1,3 +1,21 @@
-@function calc-rem($target) {
-    @return ($target / $base__font-size) * 1rem;
+//----- Calc px to vw
+@function cvw($target, $container) {
+  @return ($target / $container) * 100vw;
+}
+
+//-----  Calc px to rem
+@function cr($size) {
+  $remSize: $size / $base__font-size;
+  @return #{$remSize}rem;
+}
+
+//-----  Calc px to %
+@function cp($target, $container) {
+  @return ($target / $container) * 100%;
+}
+
+//----- Calculate letter spacing to em from PSD tracking value
+@function calcLS($psdTracking) {
+  $emLS: $psdTracking / 1000;
+  @return #{$emLS}em;
 }

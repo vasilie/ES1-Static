@@ -90,21 +90,12 @@ html {
   font-family: "Gotham Light", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #333; }
+  color: #333;
+  font-size: 16px; }
 
 p {
   font-family: "Gotham Light", sans-serif;
   font-size: 16px; }
 
-b {
-  font-weight: bold;
-  font-weight: bold;
-  background: #dedede;
-  color: black;
-  padding: 5px 9px; }
-
-.mobile-break {
-  display: none; }
-  @media (max-width: 640px) {
-    .mobile-break {
-      display: block; } }
+strong, b {
+  font-weight: bold; }
