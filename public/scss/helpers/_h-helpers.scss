@@ -11,7 +11,7 @@
 .h-m-hide{
 	display: none;
 }
-@include breakpoint(overPhone){
+@include breakpoint(tablet){
 	.h-t-only{
 		display: block;
 	}

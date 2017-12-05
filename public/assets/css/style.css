@@ -130,6 +130,16 @@ strong, b {
 .h-m-hide {
   display: none; }
 
+@media (min-width: 768px) {
+  .h-t-only {
+    display: block; }
+  .h-m-only {
+    display: none; }
+  .h-t-hide {
+    display: none; }
+  .h-m-hide {
+    display: block; } }
+
 @media (min-width: 1025px) {
   .h-d-hide {
     display: none !important; }
@@ -261,7 +271,8 @@ strong, b {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 0 6.1%; }
+  padding: 0 6.1%;
+  position: relative; }
   @media (min-width: 768px) {
     .b-latest {
       padding: 0 5.2%; } }
@@ -274,6 +285,16 @@ strong, b {
     @media (min-width: 768px) {
       .b-latest__wrap .c-section__title {
         max-width: 100%; } }
+
+.b-next-programs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 6.1%;
+  position: relative; }
+  @media (min-width: 768px) {
+    .b-next-programs {
+      padding: 0 11.7%; } }
 
 .c-section__title {
   font-family: "SFSports Night Upright", sans-serif;
@@ -344,7 +365,7 @@ strong, b {
   display: inline-block; }
   @media (max-width: 767px) {
     .c-btn {
-      font-size: 18px; } }
+      font-size: 8px; } }
   @media (min-width: 768px) {
     .c-btn {
       font-size: 11px; } }
@@ -428,6 +449,105 @@ strong, b {
     font-size: 8px;
     line-height: 12px;
     margin-top: 0.7rem; }
+
+.o-next-program {
+  width: 48.5%;
+  margin-bottom: 1.2rem;
+  box-shadow: #efa507 0px 0px 8px;
+  border: 2px solid #efa507;
+  border-image: initial;
+  border-radius: 1.4375rem;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .o-next-program {
+      margin-bottom: 3rem; } }
+  @media (min-width: 1025px) {
+    .o-next-program {
+      width: 23.8%; } }
+  .o-next-program__img img {
+    width: 100%; }
+  .o-next-program__body {
+    padding: 1.9rem 1.3rem 1.7rem 1.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto; }
+    @media (min-width: 768px) {
+      .o-next-program__body {
+        padding: 2rem 5rem 0 1.8rem; } }
+    @media (min-width: 1025px) {
+      .o-next-program__body {
+        padding: 0.9rem 0 0 0.3rem;
+        max-width: 13rem; } }
+  .o-next-program__tag {
+    font-family: "Gotham Book", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.03rem; }
+    @media (max-width: 767px) {
+      .o-next-program__tag {
+        font-size: 9px; } }
+    @media (min-width: 768px) {
+      .o-next-program__tag {
+        font-size: 10px; } }
+    @media (min-width: 1025px) {
+      .o-next-program__tag {
+        font-size: 7.5px; } }
+  .o-next-program__title {
+    text-transform: uppercase;
+    margin-top: 1.6rem;
+    font-family: "Gotham Black", sans-serif;
+    color: #ffff;
+    letter-spacing: 0.12rem;
+    padding-left: 0.2rem; }
+    @media (max-width: 767px) {
+      .o-next-program__title {
+        font-size: 23px; } }
+    @media (min-width: 768px) {
+      .o-next-program__title {
+        font-size: 47px; } }
+    @media (min-width: 1025px) {
+      .o-next-program__title {
+        font-size: 23px; } }
+    @media (max-width: 767px) {
+      .o-next-program__title {
+        line-height: 1.875rem; } }
+    @media (min-width: 768px) {
+      .o-next-program__title {
+        line-height: 3.4375rem; } }
+    @media (min-width: 1025px) {
+      .o-next-program__title {
+        line-height: 1.3125rem; } }
+    @media (min-width: 768px) {
+      .o-next-program__title {
+        margin-top: 1rem; } }
+    @media (min-width: 1025px) {
+      .o-next-program__title {
+        margin-top: 0.5rem; } }
+  .o-next-program__description {
+    margin-top: 0.7rem; }
+    @media (max-width: 767px) {
+      .o-next-program__description {
+        font-size: 12px; } }
+    @media (min-width: 768px) {
+      .o-next-program__description {
+        font-size: 12px; } }
+    @media (min-width: 1025px) {
+      .o-next-program__description {
+        font-size: 10px; } }
+    @media (max-width: 767px) {
+      .o-next-program__description {
+        line-height: 1rem; } }
+    @media (min-width: 768px) {
+      .o-next-program__description {
+        line-height: 1rem; } }
+    @media (min-width: 1025px) {
+      .o-next-program__description {
+        line-height: 1rem; } }
+  .o-next-program .c-btn {
+    margin-top: 3rem;
+    border-radius: 0.25rem;
+    padding: 1rem 0 0.8rem 0; }
 
 .page-homepage .header {
   margin-bottom: 15.5%; }

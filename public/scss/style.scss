@@ -14,10 +14,12 @@ $assetPath: "/assets";
 @import "blocks/header";
 @import "blocks/b-footer";
 @import "blocks/b-latest";
+@import "blocks/b-next-programs";
 
 @import "components/c-section-title";
 @import "components/c-buttons";
 
 @import "objects/o-latest";
+@import "objects/o-next-program";
 
 @import "pages/page-homepage";

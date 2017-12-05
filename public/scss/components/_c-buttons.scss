@@ -3,7 +3,7 @@
 	text-transform: uppercase;
 	color: $color-white;
 	font-family: $GothamBold;
-	@include font-size(18,11,11);
+	@include font-size(8,11,11);
 	border: 1px solid rgb(22, 165, 222);
 	box-shadow: inset 0 0 16px rgba(22, 165, 222, 0.76), 1px 0px 5px rgba(22, 165, 222, 0.63);
 	text-shadow: 1px 1px 5px rgba(250, 250, 250, .9);

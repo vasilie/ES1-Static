@@ -1,0 +1,10 @@
+.b-next-programs{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 6.1%;
+    position: relative;
+	@include breakpoint(tablet){
+		padding: 0 11.7%;
+	}
+}
