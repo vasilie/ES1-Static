@@ -52,22 +52,23 @@ $base__line: 20 !default;
 }
 @font-face {
     font-family: 'SFSports Night NS';
-    src: url(#{$assetPath}/font/SFSportsNightNS.ttf) format("truetype"),
-         // url(#{$assetPath}/font/uni-sans-heavy.eot),
-         // url(#{$assetPath}/font/uni-sans-heavy.woff) format("woff"),
-         // url(#{$assetPath}/font/uni-sans-heavy.svg) format("svg");
+    src: url(#{$assetPath}/font/SFNS/sfns.ttf) format("truetype"),
+         url(#{$assetPath}/font/SFNS/sfns.eot),
+         url(#{$assetPath}/font/SFNS/sfns.woff) format("woff"),
+         url(#{$assetPath}/font/SFNS/sfns.svg) format("svg");
 }
 @font-face {
     font-family: 'SFSports Night Upright';
-    src: url(#{$assetPath}/font/SFSportsUpright.ttf) format("truetype"),
-         // url(#{$assetPath}/font/uni-sans-heavy.eot),
-         // url(#{$assetPath}/font/uni-sans-heavy.woff) format("woff"),
-         // url(#{$assetPath}/font/uni-sans-heavy.svg) format("svg");
+    src: url(#{$assetPath}/font/SFUP/sfup.ttf) format("truetype"),
+         url(#{$assetPath}/font/SFUP/sfup.eot),
+         url(#{$assetPath}/font/SFUP/sfup.woff) format("woff"),
+         url(#{$assetPath}/font/SFUP/sfup.svg) format("svg");
 }
 html {
   font-family: $GothamLight;
-  color: $color-white;  
+  color: $color-white;
   // -webkit-font-smoothing: antialiased;
+
   @include font-size-vw(16,16,16);
   @include breakpoint(large){
     font-size: 16px;

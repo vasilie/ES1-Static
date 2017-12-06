@@ -15,9 +15,12 @@ $assetPath: "/assets";
 @import "blocks/b-footer";
 @import "blocks/b-latest";
 @import "blocks/b-next-programs";
+@import "blocks/b-hero-highlights";
 
 @import "components/c-section-title";
 @import "components/c-buttons";
+@import "components/hero-highlights/all";
+@import "components/c-btn";
 
 @import "objects/o-latest";
 @import "objects/o-next-program";

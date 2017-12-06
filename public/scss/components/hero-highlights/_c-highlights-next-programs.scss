@@ -1,0 +1,106 @@
+.c-highlights__next{
+
+	//WRAPPER FOR NEXT PROGRAMS
+	&-programs{
+		//background-color:red;
+		display:flex;
+		flex-flow:row wrap;
+		order:2;
+
+		@include breakpoint(tablet){
+			flex-flow:row wrap;
+			align-items: flex-start;
+			width:48.5%;
+		};
+
+		@include breakpoint(desktop){
+			order:3;
+			flex-flow:row wrap;
+			justify-content: space-between;
+			align-items: flex-start;
+			width: 100%;
+
+		}
+	}
+
+	//INDIVIDUAL NEXT PROGRAM COMPONENT
+	&-program{
+		margin:0 auto;
+		margin-bottom: 2.5rem;
+		width: 100%;
+		position:relative;
+
+		@include breakpoint(tablet){
+			margin:0;
+			margin-bottom: 2.5rem;
+		}
+
+		@include breakpoint(desktop){
+			width: 32.5%;
+			margin:0;
+		}
+
+		img{
+			max-width: none;
+			width: 100%;
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+			filter: grayscale(100%);
+			transition: filter 0.25s ease;
+		}
+
+		&:hover img{
+				cursor: pointer;
+				-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+				filter: grayscale(0%);
+		}
+
+		& .body{
+			position: absolute;
+			bottom: 12%;
+		    left: 7%;
+		    right: 14%;
+			text-align:left;
+
+			@include breakpoint(tablet){
+				bottom: 9%;
+			    left: 9%;
+			    right: 28%;
+			}
+
+			@include breakpoint(desktop){
+				bottom: 9%;
+			    left: 9%;
+			    right: 28%;
+			}
+		}
+
+		& .title{
+			font-family:$SFUP;
+			@include font-size(44, 24, 28.08);
+			@include letter-spacing(20);
+			@include line-height(44, 20, 22.9);
+		}
+
+		& button{
+			margin:0;
+			width: 50%;
+			@include line-height(26, 25, 50);
+			margin-top: 1.7rem;
+
+			@include breakpoint(tablet){
+				margin-top: 1.3rem;
+				width: 60%;
+			}
+
+			@include breakpoint(desktop){
+				margin-top: 1.8rem;
+				width: 74%;
+			}
+
+			span{
+				@include font-size(7.02, 10, 16);
+				@include letter-spacing(-40);
+			}
+		}
+	}
+}
