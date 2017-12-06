@@ -349,6 +349,14 @@ strong, b {
   background: #efa507;
   color: black; }
 
+.b-resultats {
+  display: block; }
+
+.b-resultats__games {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px; }
+
 .c-section__title {
   font-family: "SFSports Night Upright", sans-serif;
   text-align: center;
@@ -1014,6 +1022,28 @@ strong, b {
 .o-prochains__flag {
   float: left;
   border-radius: 50%; }
+
+.o-resultats__game {
+  clear: both;
+  width: 100%;
+  text-align: center; }
+  .o-resultats__game > :nth-child(3) .o-resultats__team__logo {
+    float: right; }
+
+.o-resultats__team {
+  display: inline-block;
+  width: 20%; }
+
+.o-resultats__score {
+  display: inline-block;
+  padding: 0 10%;
+  width: 30%; }
+
+.o-resultats__team-name {
+  float: left; }
+
+.o-resultats__team__logo {
+  float: left; }
 
 .page-homepage .header {
   margin-bottom: 15.5%; }

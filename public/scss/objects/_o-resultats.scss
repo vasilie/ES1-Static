@@ -1,0 +1,25 @@
+.o-resultats__game {
+  clear:both;
+  width: 100%;
+  text-align: center;
+  &>:nth-child(3){
+    .o-resultats__team__logo {
+      float: right;
+    }
+  }
+}
+.o-resultats__team {
+  display: inline-block;
+  width: 20%;
+}
+.o-resultats__score {
+  display: inline-block;
+  padding:0 10%;
+  width: 30%;
+}
+.o-resultats__team-name {
+  float: left;
+}
+.o-resultats__team__logo {
+  float: left;
+}
