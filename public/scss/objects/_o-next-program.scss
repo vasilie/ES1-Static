@@ -1,67 +1,120 @@
 .o-next-program{
 	width: 48.5%;
 	margin-bottom: 1.2rem;
+	padding-bottom: 5rem;
 	box-shadow: rgb(239, 165, 7) 0px 0px 8px;
 	border: 2px solid rgb(239, 165, 7);
     border-image: initial;
     border-radius: cr(23);
     overflow: hidden;
+    position: relative;
+	background: $color-black;
 	@include breakpoint(tablet){
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 	}
 	@include breakpoint(desktop){
-		width: 23.8%;
+		width: 24.2%;
 	}
+    &--shp{
+		@include breakpoint(desktop){
+			width: 32.7%;
+			margin-bottom: 1.4rem;
+		}
+    	.o-next-program__body{
+    		padding: 1.9rem 1.3rem 0.4rem 1.3rem;
+			@include breakpoint(tablet){
+				padding: 2.1rem 1.3rem 2.5rem 1.75rem;
+			}
+			@include breakpoint(desktop){
+				padding: 2rem 1.3rem 2.5rem 1.6rem;
+			}
+    	}
+    	.o-next-program__title{
+			@include font-size(12, 24, 24);
+			@include line-height(24, 24, 24);   
+			letter-spacing: 0.06rem; 	
+			padding-left: 0;	
+			margin-top: 1.1rem;
+			margin-bottom: 1.4rem;
+			@include breakpoint(tablet){
+				margin-top: .9rem;
+    			margin-bottom: 1.6rem;
+			}
+			@include breakpoint(desktop){
+				margin-top: .4rem;
+    			margin-bottom: 2rem;
+			}
+    	}
+    	.o-next-program .c-btn{
+    		margin-top: 2.3rem;
+    	}
+    }
 	&__img{
 		img{
 			width: 100%;
 		}
 	}
 	&__body{
-		padding: 1.9rem 1.3rem 1.7rem 1.3rem;
+		padding: 1.9rem 1.3rem 2.2rem 1.3rem;
 		display: flex;
 		flex-flow: column nowrap;
 		flex-grow: 1;
 		flex-shrink: 1;
 		flex-basis: auto;
 		@include breakpoint(tablet){
-			padding: 2rem 5rem 0 1.8rem;
+			padding: 2rem 0.7rem 2.4rem 1.8rem;
 		}
 		@include breakpoint(desktop){
-			padding: 0.9rem 0 0 0.3rem;
-   			max-width: 13rem;
+			padding: 2rem 1rem 2.5rem 1.5rem;
 		}
 	}
 	&__tag{
 		font-family: $GothamBook;
-		@include font-size(9, 10, 7.5);
+		@include font-size(9, 10, 10);
 		text-transform: uppercase;
 		letter-spacing: -0.03rem;
 	}
 	&__title{
-		@include font-size(23, 47, 23);
-		@include line-height(30, 55, 21);
+		@include font-size(23, 47, 47);
+		@include line-height(40, 43, 45);
 		text-transform: uppercase;
-		margin-top: 1.6rem;
+		margin-top: 1.4rem;
 		font-family: $GothamBlack;
 		color: $color-white;
 		letter-spacing: 0.12rem;
 		padding-left: 0.2rem;
 		@include breakpoint(tablet){
-			margin-top: 1rem;
+			margin-top: 1.2rem;
+			margin-bottom: 1.6rem;
 		}
 		@include breakpoint(desktop){
-			margin-top: 0.5rem;
+			margin-top: 1.2rem;
+    		margin-bottom: 1.3rem;
 		}		
 	}
 	&__description{
 		@include font-size(12, 12, 10);
-		@include line-height(16, 16, 16);
-		margin-top: 0.7rem;
+		@include line-height(16, 17, 16);
+		letter-spacing: cr(0.1)
 	}
 	.c-btn{
 		margin-top: 3rem;
   		border-radius: cr(4);
-  		padding: 1rem 0 0.8rem 0;
+  		padding: 0.75rem 0 0.75rem 0;
+  		position: absolute;
+  		bottom: 1.7rem;
+  		left: 1.3rem;
+  		right: 1.3rem;
+		@include breakpoint(tablet){
+			bottom: 2.5rem;
+		    left: 1.7rem;
+		    right: 2.1rem;
+		    padding: 1rem 0 1rem 0;
+		}
+		@include breakpoint(desktop){
+			left: 1.5rem;
+    		right: 1.9rem;
+    		bottom: 2.4rem;
+		}
 	}
 }
