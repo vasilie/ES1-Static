@@ -334,6 +334,10 @@ strong, b {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */ }
 
+.b-prochains__slider {
+  background: #efa507;
+  color: black; }
+
 .c-section__title {
   font-family: "SFSports Night Upright", sans-serif;
   text-align: center;
@@ -943,6 +947,53 @@ strong, b {
         left: 1.5rem;
         right: 1.9rem;
         bottom: 2.4rem; } }
+
+.o-prochains {
+  padding: 10% 20%; }
+
+.o-prochains__title {
+  font-family: "SFSports Night Upright", sans-serif; }
+  @media (max-width: 767px) {
+    .o-prochains__title {
+      font-size: 12px; } }
+  @media (min-width: 768px) {
+    .o-prochains__title {
+      font-size: 24px; } }
+  @media (min-width: 1025px) {
+    .o-prochains__title {
+      font-size: 22px; } }
+  @media (max-width: 767px) {
+    .o-prochains__title {
+      line-height: 12px; } }
+  @media (min-width: 768px) {
+    .o-prochains__title {
+      line-height: 24px; } }
+  @media (min-width: 1025px) {
+    .o-prochains__title {
+      line-height: 19px; } }
+
+.o-prochains__date {
+  display: block;
+  width: 100%; }
+  .o-prochains__date p, .o-prochains__date span {
+    display: block;
+    float: left; }
+  .o-prochains__date span {
+    background: black;
+    color: white; }
+
+.o-prochains__location {
+  float: left;
+  width: 100%;
+  display: block; }
+
+.o-prochains__city {
+  width: 100%;
+  display: block; }
+
+.o-prochains__flag {
+  float: left;
+  border-radius: 50%; }
 
 .page-homepage .header {
   margin-bottom: 15.5%; }

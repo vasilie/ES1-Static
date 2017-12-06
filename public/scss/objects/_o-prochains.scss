@@ -1,0 +1,36 @@
+.o-prochains {
+  padding:10% 20%;
+}
+.o-prochains__title {
+  @include font-size(12, 24, 22);
+  @include line-height(12, 24, 19);
+  font-family: $SFUP;
+  @include breakpoint(desktop) {
+
+  }
+}
+.o-prochains__date {
+  display: block;
+  width: 100%;
+  p, span {
+    display: block;
+    float: left;
+  }
+  span {
+    background: black;
+    color:white;
+  }
+}
+.o-prochains__location {
+  float: left;
+  width: 100%;
+  display: block;
+}
+.o-prochains__city {
+  width: 100%;
+  display: block;
+}
+.o-prochains__flag {
+  float: left;
+  border-radius: 50%;
+}
