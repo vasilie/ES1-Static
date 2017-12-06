@@ -461,13 +461,13 @@ strong, b {
         font-size: 43px; } }
     @media (max-width: 767px) {
       .c-highlights__hero .title {
-        line-height: 3.625rem; } }
+        line-height: 58px; } }
     @media (min-width: 768px) {
       .c-highlights__hero .title {
-        line-height: 1.75562rem; } }
+        line-height: 28.09px; } }
     @media (min-width: 1025px) {
       .c-highlights__hero .title {
-        line-height: 2rem; } }
+        line-height: 32px; } }
   .c-highlights__hero .description {
     font-family: "Gotham Light", sans-serif;
     display: none; }
@@ -482,13 +482,13 @@ strong, b {
         font-size: 14px; } }
     @media (max-width: 767px) {
       .c-highlights__hero .description {
-        line-height: 1.1875rem; } }
+        line-height: 19px; } }
     @media (min-width: 768px) {
       .c-highlights__hero .description {
-        line-height: 1.125rem; } }
+        line-height: 18px; } }
     @media (min-width: 1025px) {
       .c-highlights__hero .description {
-        line-height: 1.125rem; } }
+        line-height: 18px; } }
     @media (min-width: 768px) {
       .c-highlights__hero .description {
         display: block; } }
@@ -502,13 +502,13 @@ strong, b {
     font-family: "Gotham Black", sans-serif; }
     @media (max-width: 767px) {
       .c-highlights__hero button {
-        line-height: 4.1875rem; } }
+        line-height: 67px; } }
     @media (min-width: 768px) {
       .c-highlights__hero button {
-        line-height: 2.8125rem; } }
+        line-height: 45px; } }
     @media (min-width: 1025px) {
       .c-highlights__hero button {
-        line-height: 2.8125rem; } }
+        line-height: 45px; } }
     @media (min-width: 768px) {
       .c-highlights__hero button {
         width: 47%; } }
@@ -624,26 +624,26 @@ strong, b {
         font-size: 28.08px; } }
     @media (max-width: 767px) {
       .c-highlights__next-program .title {
-        line-height: 2.75rem; } }
+        line-height: 44px; } }
     @media (min-width: 768px) {
       .c-highlights__next-program .title {
-        line-height: 1.25rem; } }
+        line-height: 20px; } }
     @media (min-width: 1025px) {
       .c-highlights__next-program .title {
-        line-height: 1.43125rem; } }
+        line-height: 22.9px; } }
   .c-highlights__next-program button {
     margin: 0;
     width: 50%;
     margin-top: 1.7rem; }
     @media (max-width: 767px) {
       .c-highlights__next-program button {
-        line-height: 1.625rem; } }
+        line-height: 26px; } }
     @media (min-width: 768px) {
       .c-highlights__next-program button {
-        line-height: 1.5625rem; } }
+        line-height: 25px; } }
     @media (min-width: 1025px) {
       .c-highlights__next-program button {
-        line-height: 3.125rem; } }
+        line-height: 50px; } }
     @media (min-width: 768px) {
       .c-highlights__next-program button {
         margin-top: 1.3rem;
