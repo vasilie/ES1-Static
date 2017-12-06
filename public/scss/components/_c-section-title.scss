@@ -1,9 +1,9 @@
 .c-section__title{
 	font-family: $SFUP;
 	text-align: center;
-	padding: 3rem 0;
+	padding: 5.1rem 0 3rem 0;
 	@include font-size(32,65,80);
-	@include line-height(54,60,75);
+	@include line-height(27,53,75);
     text-shadow: -1px -1px 0.1px rgba(22, 165, 222, 0.8), 1px 1px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 72px rgba(22, 165, 222, 0.7);
     -webkit-text-stroke: 0.09rem rgba(22, 165, 222, 0.8);
 	color: #000;
@@ -14,6 +14,8 @@
 	}
 	@include breakpoint(desktop){
 		padding: 0.8rem 0;
+		max-width: 59rem;
+    	margin: auto;
 	}
 	&__wrap{
 		position: relative;
@@ -26,15 +28,22 @@
 		}
 	}
 	&__circle{
-		box-shadow: 0 0 115px 70px rgba(22, 165, 222, 0.2);
+		box-shadow: 0 0 115px 70px rgba(22, 165, 222, 0.3);
 	    border-radius: 100%;
 	    position: absolute;
-	    width: 27rem;
-	    height: 27rem;
+	    width: 15rem;
+	    height: 15rem;
 	    left: 0;
 	    right: 0;
-	    top: 0;
+	    top: 8rem;
 	    margin: auto;
-	    background: rgba(22, 165, 222, 0.2);
+	    background: rgba(22, 165, 222, 0.3);
+		@include breakpoint(tablet){
+			box-shadow: 0 0 115px 70px rgba(22, 165, 222, 0.25);
+		    width: 25rem;
+		    height: 25rem;
+		    top: -3rem;
+		    background: rgba(22, 165, 222, 0.25);
+		}
 	}
 }

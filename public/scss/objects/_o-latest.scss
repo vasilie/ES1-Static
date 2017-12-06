@@ -35,7 +35,7 @@
 	}
 	&__title{
 		@include font-size(15, 26, 23);
-		@include line-height(30, 30, 21);
+		@include line-height(15, 30, 21);
 		text-transform: uppercase;
 		margin-top: 0.6rem;
 		font-family: $SFUP;

@@ -4,8 +4,8 @@
 	color: $color-white;
 	font-family: $GothamBold;
 	@include font-size(8,11,11);
-	border: 2px solid rgb(22, 165, 222);
-	box-shadow: inset 1px 1px 15px rgba(22, 165, 222, 0.76), 2px 1px 7px rgba(22, 165, 222, 0.63);
+	border: cr(2) solid rgb(22, 165, 222);
+	box-shadow: inset 0px 0px 7px rgba(22, 165, 222, 0.76), 1px 0px 13px rgba(22, 165, 222, 0.63);
 	text-shadow: 1px 1px 5px rgba(250, 250, 250, .9);
 	letter-spacing: 0.06rem;
 	padding: 1.3rem 2rem;

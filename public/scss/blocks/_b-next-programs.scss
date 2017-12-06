@@ -13,6 +13,19 @@
 	&__wrap{
 		background-repeat: no-repeat !important;
 		background-size: contain !important;
+		@include breakpoint(tablet){
+			margin-bottom: 5rem;
+		}
+		.c-section__title{
+			padding: 5.8rem 0 1.7rem 0;
+			opacity: .7;
+			// text-shadow: -1px -1px 0.1px rgba(22, 165, 222, 1), 1px 1px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 72px rgba(22, 165, 222, 0.7);
+    		-webkit-text-stroke: 0.2rem rgba(22, 165, 222, 1);
+			@include breakpoint(tablet){
+				-webkit-text-stroke: 0.1rem rgba(22, 165, 222, 1);
+				padding-bottom: 3rem;
+			}
+		}
 	}
 	&--shp{
 		@include breakpoint(desktop){

@@ -31,7 +31,7 @@
     	}
     	.o-next-program__title{
 			@include font-size(12, 24, 24);
-			@include line-height(24, 24, 24);   
+			@include line-height(12, 24, 24);   
 			letter-spacing: 0.06rem; 	
 			padding-left: 0;	
 			margin-top: 1.1rem;
@@ -76,7 +76,7 @@
 	}
 	&__title{
 		@include font-size(23, 47, 47);
-		@include line-height(40, 43, 45);
+		@include line-height(20, 43, 45);
 		text-transform: uppercase;
 		margin-top: 1.4rem;
 		font-family: $GothamBlack;
@@ -94,7 +94,7 @@
 	}
 	&__description{
 		@include font-size(12, 12, 10);
-		@include line-height(16, 17, 16);
+		@include line-height(16, 16, 16);
 		letter-spacing: cr(0.1)
 	}
 	.c-btn{
