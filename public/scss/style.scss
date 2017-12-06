@@ -16,6 +16,7 @@ $assetPath: "/assets";
 @import "blocks/b-latest";
 @import "blocks/b-next-programs";
 @import "blocks/b-hero-highlights";
+@import "blocks/b-prochains";
 
 @import "components/c-section-title";
 @import "components/c-buttons";
@@ -24,5 +25,6 @@ $assetPath: "/assets";
 
 @import "objects/o-latest";
 @import "objects/o-next-program";
+@import "objects/o-prochains";
 
 @import "pages/page-homepage";
