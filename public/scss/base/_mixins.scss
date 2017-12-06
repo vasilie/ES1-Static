@@ -42,9 +42,20 @@
 
 //----- Line Height
 
-// Example @include line-height(10px, 20px, 30px);
-// rem Line-Height
+// px Line-Height
 @mixin line-height($fz-mobile, $fz-tablet, $fz-desktop) {
+  @include breakpoint(mobile) {
+    line-height: #{$fz-mobile}px;
+  }
+  @include breakpoint(tablet) {
+    line-height: #{$fz-tablet}px;
+  }
+  @include breakpoint(desktop) {
+    line-height: #{$fz-desktop}px;
+  }
+}
+// rem Line-Height
+@mixin line-height-rem($fz-mobile, $fz-tablet, $fz-desktop) {
   @include breakpoint(mobile) {
     line-height: cr($fz-mobile);
   }
