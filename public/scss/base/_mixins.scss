@@ -13,6 +13,11 @@
   }
 }
 
+// Letter spacing
+@mixin letter-spacing($ls) {
+  letter-spacing: calcLS($ls);
+}
+
 // rem Font Size
 @mixin font-size-rem($fz-mobile, $fz-tablet, $fz-desktop) {
   @include breakpoint(mobile) {
@@ -66,10 +71,17 @@
     line-height: cr($fz-desktop);
   }
 }
-
 //----- Letter spacing
 @mixin ls($ls) {
   letter-spacing: calcLS($ls);
+}
+//----mixin for glowing border
+//example @include border-glow(red, 10px, 20px);
+
+@mixin border-glow($color, $border-thicknes, $border-radius, $glow-spread){
+	border:$border-thicknes solid $color;
+	border-radius:$border-radius;
+	box-shadow: 0 0 $glow-spread $color;
 }
 
 

@@ -1,0 +1,73 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Nouvelle_nuance_de_dégradé_1_3);
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#Dégradé_sans_nom_90);
+      }
+
+      .cls-4 {
+        fill: url(#Dégradé_sans_nom_90-2);
+      }
+
+      .cls-5 {
+        fill: url(#Dégradé_sans_nom_90-3);
+      }
+    </style>
+    <linearGradient id="Nouvelle_nuance_de_dégradé_1_3" data-name="Nouvelle nuance de dégradé 1 3" x1="17.13" y1="82.87" x2="82.87" y2="17.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8722"/>
+      <stop offset="0.05" stop-color="#ff8a26"/>
+      <stop offset="0.1" stop-color="#ff9332"/>
+      <stop offset="0.15" stop-color="#ffa347"/>
+      <stop offset="0.2" stop-color="#ffb963"/>
+      <stop offset="0.25" stop-color="#ffd487"/>
+      <stop offset="0.29" stop-color="#fff4b1"/>
+      <stop offset="0.31" stop-color="#feeea9"/>
+      <stop offset="0.4" stop-color="#fabe6f"/>
+      <stop offset="0.48" stop-color="#f69b44"/>
+      <stop offset="0.54" stop-color="#f4862a"/>
+      <stop offset="0.57" stop-color="#f37e20"/>
+      <stop offset="0.93" stop-color="#b07329"/>
+      <stop offset="0.99" stop-color="#3a3d00"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M50,96.5A46.5,46.5,0,1,1,96.5,50,46.55,46.55,0,0,1,50,96.5ZM50,7.17A42.83,42.83,0,1,0,92.83,50,42.87,42.87,0,0,0,50,7.17Z"/>
+    </clipPath>
+    <linearGradient id="Dégradé_sans_nom_90" data-name="Dégradé sans nom 90" x1="34.15" y1="77.25" x2="65.64" y2="22.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8722"/>
+      <stop offset="0.05" stop-color="#ff8a26"/>
+      <stop offset="0.1" stop-color="#ff9332"/>
+      <stop offset="0.15" stop-color="#ffa347"/>
+      <stop offset="0.2" stop-color="#ffb963"/>
+      <stop offset="0.25" stop-color="#ffd487"/>
+      <stop offset="0.29" stop-color="#fff4b1"/>
+      <stop offset="0.31" stop-color="#feeea9"/>
+      <stop offset="0.45" stop-color="#fabe6f"/>
+      <stop offset="0.56" stop-color="#f69b44"/>
+      <stop offset="0.65" stop-color="#f4862a"/>
+      <stop offset="0.71" stop-color="#f37e20"/>
+      <stop offset="1" stop-color="#b07329"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_90-2" x1="42.92" y1="62.13" x2="56.92" y2="37.87" xlink:href="#Dégradé_sans_nom_90"/>
+    <linearGradient id="Dégradé_sans_nom_90-3" x1="62.81" y1="38.29" x2="66.09" y2="32.61" xlink:href="#Dégradé_sans_nom_90"/>
+  </defs>
+  <title>ES1-Sociaux</title>
+  <g>
+    <path class="cls-1" d="M50,96.5A46.5,46.5,0,1,1,96.5,50,46.55,46.55,0,0,1,50,96.5ZM50,7.17A42.83,42.83,0,1,0,92.83,50,42.87,42.87,0,0,0,50,7.17Z"/>
+    <g class="cls-2">
+      <path class="cls-1" d="M50,96.5A46.5,46.5,0,1,1,96.5,50,46.55,46.55,0,0,1,50,96.5ZM50,7.17A42.83,42.83,0,1,0,92.83,50,42.87,42.87,0,0,0,50,7.17Z"/>
+    </g>
+  </g>
+  <g>
+    <path class="cls-3" d="M39,22.75h21.8c.62.08,1.24.21,1.86.25A14.4,14.4,0,0,1,76.42,34.45c.39,1.61.52,3.28.76,4.92v21c-.09.8-.22,1.6-.27,2.4A14.41,14.41,0,0,1,65.49,76.49c-1.7.4-3.47.51-5.21.76h-21c-.71-.09-1.42-.23-2.14-.27C29.25,76.53,23.22,70.75,23,62.84c-.25-8.56-.23-17.14,0-25.7.18-7,4.85-12.26,11.63-13.73C36.07,23.09,37.56,23,39,22.75ZM72,50.13h0c0-3.9.11-7.81,0-11.71-.22-6.54-3.89-10.34-10.42-10.48q-11.64-.25-23.28,0C31.74,28.07,28,31.8,27.86,38.35q-.25,11.58,0,23.15c.15,6.74,3.88,10.44,10.6,10.57q11.58.24,23.15,0c6.43-.13,10.19-4,10.4-10.37C72.14,57.85,72,54,72,50.13Z"/>
+    <path class="cls-4" d="M49.8,64A14,14,0,1,1,63.9,50.09,13.91,13.91,0,0,1,49.8,64ZM59,50.09A9,9,0,1,0,49.8,59,9,9,0,0,0,59,50.09Z"/>
+    <path class="cls-5" d="M67.71,35.41a3.27,3.27,0,0,1-3.2,3.35,3.37,3.37,0,0,1-3.35-3.24,3.27,3.27,0,0,1,3.25-3.3A3.15,3.15,0,0,1,67.71,35.41Z"/>
+  </g>
+</svg>

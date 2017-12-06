@@ -87,11 +87,11 @@ body {
 
 @font-face {
   font-family: 'SFSports Night NS';
-  src: url(/assets/font/SFSportsNightNS.ttf) format("truetype"); }
+  src: url(/assets/font/SFNS/sfns.ttf) format("truetype"), url(/assets/font/SFNS/sfns.eot), url(/assets/font/SFNS/sfns.woff) format("woff"), url(/assets/font/SFNS/sfns.svg) format("svg"); }
 
 @font-face {
   font-family: 'SFSports Night Upright';
-  src: url(/assets/font/SFSportsUpright.ttf) format("truetype"); }
+  src: url(/assets/font/SFUP/sfup.ttf) format("truetype"), url(/assets/font/SFUP/sfup.eot), url(/assets/font/SFUP/sfup.woff) format("woff"), url(/assets/font/SFUP/sfup.svg) format("svg"); }
 
 html {
   font-family: "Gotham Light", sans-serif;
@@ -304,6 +304,36 @@ strong, b {
     .b-next-programs--shp {
       padding: 0 14.3%; } }
 
+.b-hero-highlights {
+  display: block;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #000;
+  padding: 0 6.171%;
+  padding-bottom: 0.7rem; }
+  @media (min-width: 768px) {
+    .b-hero-highlights {
+      padding: 0 5.208%;
+      padding-bottom: 0.7rem; } }
+  @media (min-width: 1025px) {
+    .b-hero-highlights {
+      padding: 1.5rem 1.2rem 4rem 1.2rem; } }
+  .b-hero-highlights .gradient-overlay {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.3) 20%, transparent 35%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.3) 20%, transparent 35%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.3) 20%, transparent 35%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+
 .c-section__title {
   font-family: "SFSports Night Upright", sans-serif;
   text-align: center;
@@ -384,6 +414,299 @@ strong, b {
     .c-btn {
       letter-spacing: -0.01rem;
       padding: 1rem 2.5rem; } }
+
+.c-highlights__hero {
+  margin-bottom: 2.2rem;
+  order: 1;
+  width: 100%;
+  position: relative; }
+  @media (min-width: 768px) {
+    .c-highlights__hero {
+      width: 100%; } }
+  @media (min-width: 1025px) {
+    .c-highlights__hero {
+      width: 66%;
+      margin-bottom: 0.6rem; } }
+  .c-highlights__hero img {
+    max-width: none;
+    width: 100%; }
+  .c-highlights__hero .body {
+    position: absolute;
+    bottom: 9%;
+    left: 7%;
+    right: 9%;
+    text-align: left; }
+    @media (min-width: 768px) {
+      .c-highlights__hero .body {
+        bottom: 7%;
+        left: 4.7%;
+        right: 27%; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero .body {
+        bottom: 4%;
+        left: 4.7%;
+        right: 24%; } }
+  .c-highlights__hero .title {
+    letter-spacing: 2px;
+    font-family: "SFSports Night Upright", sans-serif;
+    letter-spacing: 2px; }
+    @media (max-width: 767px) {
+      .c-highlights__hero .title {
+        font-size: 58px; } }
+    @media (min-width: 768px) {
+      .c-highlights__hero .title {
+        font-size: 36px; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero .title {
+        font-size: 43px; } }
+    @media (max-width: 767px) {
+      .c-highlights__hero .title {
+        line-height: 3.625rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__hero .title {
+        line-height: 1.75562rem; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero .title {
+        line-height: 2rem; } }
+  .c-highlights__hero .description {
+    font-family: "Gotham Light", sans-serif;
+    display: none; }
+    @media (max-width: 767px) {
+      .c-highlights__hero .description {
+        font-size: 14px; } }
+    @media (min-width: 768px) {
+      .c-highlights__hero .description {
+        font-size: 14px; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero .description {
+        font-size: 14px; } }
+    @media (max-width: 767px) {
+      .c-highlights__hero .description {
+        line-height: 1.1875rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__hero .description {
+        line-height: 1.125rem; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero .description {
+        line-height: 1.125rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__hero .description {
+        display: block; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero .description {
+        display: block;
+        margin-bottom: 2%; } }
+  .c-highlights__hero button {
+    margin: 0;
+    width: 62%;
+    font-family: "Gotham Black", sans-serif; }
+    @media (max-width: 767px) {
+      .c-highlights__hero button {
+        line-height: 4.1875rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__hero button {
+        line-height: 2.8125rem; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero button {
+        line-height: 2.8125rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__hero button {
+        width: 47%; } }
+    @media (min-width: 1025px) {
+      .c-highlights__hero button {
+        width: 40%; } }
+    .c-highlights__hero button h2 {
+      letter-spacing: -0.04em;
+      color: #ffff; }
+      @media (max-width: 767px) {
+        .c-highlights__hero button h2 {
+          font-size: 18px; } }
+      @media (min-width: 768px) {
+        .c-highlights__hero button h2 {
+          font-size: 11px; } }
+      @media (min-width: 1025px) {
+        .c-highlights__hero button h2 {
+          font-size: 11px; } }
+
+.c-highlights__banner {
+  margin: auto;
+  order: 3;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+  @media (min-width: 768px) {
+    .c-highlights__banner {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 3rem;
+      width: 51.5%;
+      justify-content: center; } }
+  @media (min-width: 1025px) {
+    .c-highlights__banner {
+      order: 2;
+      width: 25%;
+      padding-bottom: 1.2rem;
+      justify-content: center; } }
+  .c-highlights__banner img {
+    max-width: none;
+    width: 100%;
+    align-self: center; }
+
+.c-highlights__next-programs {
+  display: flex;
+  flex-flow: row wrap;
+  order: 2; }
+  @media (min-width: 768px) {
+    .c-highlights__next-programs {
+      flex-flow: row wrap;
+      align-items: flex-start;
+      width: 48.5%; } }
+  @media (min-width: 1025px) {
+    .c-highlights__next-programs {
+      order: 3;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%; } }
+
+.c-highlights__next-program {
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  position: relative; }
+  @media (min-width: 768px) {
+    .c-highlights__next-program {
+      margin: 0;
+      margin-bottom: 2.5rem; } }
+  @media (min-width: 1025px) {
+    .c-highlights__next-program {
+      width: 32.5%;
+      margin: 0; } }
+  .c-highlights__next-program img {
+    max-width: none;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: filter 0.25s ease; }
+  .c-highlights__next-program:hover img {
+    cursor: pointer;
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%); }
+  .c-highlights__next-program .body {
+    position: absolute;
+    bottom: 12%;
+    left: 7%;
+    right: 14%;
+    text-align: left; }
+    @media (min-width: 768px) {
+      .c-highlights__next-program .body {
+        bottom: 9%;
+        left: 9%;
+        right: 28%; } }
+    @media (min-width: 1025px) {
+      .c-highlights__next-program .body {
+        bottom: 9%;
+        left: 9%;
+        right: 28%; } }
+  .c-highlights__next-program .title {
+    font-family: "SFSports Night Upright", sans-serif;
+    letter-spacing: 0.02em; }
+    @media (max-width: 767px) {
+      .c-highlights__next-program .title {
+        font-size: 44px; } }
+    @media (min-width: 768px) {
+      .c-highlights__next-program .title {
+        font-size: 24px; } }
+    @media (min-width: 1025px) {
+      .c-highlights__next-program .title {
+        font-size: 28.08px; } }
+    @media (max-width: 767px) {
+      .c-highlights__next-program .title {
+        line-height: 2.75rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__next-program .title {
+        line-height: 1.25rem; } }
+    @media (min-width: 1025px) {
+      .c-highlights__next-program .title {
+        line-height: 1.43125rem; } }
+  .c-highlights__next-program button {
+    margin: 0;
+    width: 50%;
+    margin-top: 1.7rem; }
+    @media (max-width: 767px) {
+      .c-highlights__next-program button {
+        line-height: 1.625rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__next-program button {
+        line-height: 1.5625rem; } }
+    @media (min-width: 1025px) {
+      .c-highlights__next-program button {
+        line-height: 3.125rem; } }
+    @media (min-width: 768px) {
+      .c-highlights__next-program button {
+        margin-top: 1.3rem;
+        width: 60%; } }
+    @media (min-width: 1025px) {
+      .c-highlights__next-program button {
+        margin-top: 1.8rem;
+        width: 74%; } }
+    .c-highlights__next-program button span {
+      letter-spacing: -0.04em; }
+      @media (max-width: 767px) {
+        .c-highlights__next-program button span {
+          font-size: 7.02px; } }
+      @media (min-width: 768px) {
+        .c-highlights__next-program button span {
+          font-size: 10px; } }
+      @media (min-width: 1025px) {
+        .c-highlights__next-program button span {
+          font-size: 16px; } }
+
+.btn {
+  margin: 0 auto;
+  display: block;
+  transition: background-color 0.3s ease;
+  outline: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5); }
+  @media (max-width: 767px) {
+    .btn {
+      font-size: 25px; } }
+  @media (min-width: 768px) {
+    .btn {
+      font-size: 20px; } }
+  @media (min-width: 1025px) {
+    .btn {
+      font-size: 20px; } }
+  .btn--latest-articles {
+    background-color: transparent; }
+  .btn--glow-yellow {
+    border: 2px solid #efa507;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #efa507; }
+  .btn--glow-blue {
+    border: 2px solid #54d7f6;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #54d7f6; }
+  .btn span {
+    font-family: "Gotham Black", sans-serif;
+    text-transform: uppercase;
+    color: white; }
+  .btn .btn-title {
+    font-family: "Gotham Black", sans-serif;
+    text-transform: uppercase;
+    color: white; }
+    @media (max-width: 767px) {
+      .btn .btn-title {
+        font-size: 25px; } }
+    @media (min-width: 768px) {
+      .btn .btn-title {
+        font-size: 20px; } }
+    @media (min-width: 1025px) {
+      .btn .btn-title {
+        font-size: 20px; } }
 
 .o-latest {
   width: 48.5%;

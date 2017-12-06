@@ -1,0 +1,44 @@
+.btn{
+	//width:100%;
+  @include font-size(25, 20, 20);
+	margin:0 auto;
+	display: block;
+	transition:background-color 0.3s ease;
+	outline:none;
+	cursor: pointer;
+	background-color:rgba(0,0,0,0.5);
+	&--latest-articles{
+		background-color: rgba(0,0,0,0);
+	}
+	//glow effect
+	&--glow-yellow{
+		@include border-glow($yellow, 2px, 5px, 20px);
+
+		@include breakpoint(overPhone){
+			&:hover{
+				background-color:rgba(239, 165, 7, 0.5);
+			}
+		}
+	}
+	&--glow-blue{
+		@include border-glow($sky-blue, 2px, 5px, 20px);
+
+		@include breakpoint(overPhone){
+			&:hover{
+				background-color:rgba(84, 215, 246, 0.46);
+			}
+		}
+	}
+	//text of btn
+	& span{
+		font-family: $GothamBlack;
+		text-transform: uppercase;
+		color:white;
+	}
+	& .btn-title{
+		font-family: $GothamBlack;
+		text-transform: uppercase;
+		@include font-size(25, 20, 20);
+		color:white;
+	}
+}

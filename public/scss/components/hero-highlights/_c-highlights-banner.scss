@@ -1,0 +1,31 @@
+.c-highlights__banner{
+	//background-color:blue;
+	margin:auto;
+	order:3;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+	@include breakpoint(tablet){
+		margin:0;
+		padding-top: 0;
+		padding-bottom: 3rem;
+		width:51.5%;
+		justify-content: center;
+
+	};
+
+	@include breakpoint(desktop){
+		order:2;
+		width:25%;
+		padding-bottom:1.2rem;
+		justify-content: center;
+
+	}
+
+	img{
+		max-width: none;
+		width: 100%;
+		align-self:center;
+	}
+}

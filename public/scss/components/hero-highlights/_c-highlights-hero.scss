@@ -1,0 +1,72 @@
+.c-highlights__hero{
+	//background-color:green;
+	margin-bottom:2.2rem;
+	order:1;
+	width: 100%;
+	position:relative;
+	@include breakpoint(tablet){
+		width: 100%;
+	}
+	@include breakpoint(desktop){
+		width: 66%;
+		margin-bottom: 0.6rem;
+	}
+	img{
+		max-width: none;
+		width: 100%;
+	}
+	& .body{
+		position: absolute;
+		bottom: 9%;
+	    left: 7%;
+	    right: 9%;
+		text-align:left;
+		@include breakpoint(tablet){
+			bottom: 7%;
+		    left: 4.7%;
+		    right: 27%;
+		}
+		@include breakpoint(desktop){
+			bottom: 4%;
+		    left: 4.7%;
+		    right: 24%;
+		}
+	}
+	& .title{
+    letter-spacing: 2px;
+		font-family:$SFUP;
+		@include font-size(58, 36, 43);
+    letter-spacing: 2px;
+		@include line-height(58, 28.09, 32);
+	}
+	& .description{
+		font-family: $GothamLight;
+		@include font-size(14, 14, 14)  ;
+		@include line-height(19, 18, 18);
+		display: none;
+		@include breakpoint(tablet){
+			display: block;
+		}
+		@include breakpoint(desktop){
+			display: block;
+      margin-bottom: 2%;
+		}
+	}
+	& button{
+		margin:0;
+		width: 62%;
+    font-family: $GothamBlack;
+		@include line-height(67, 45, 45);
+		@include breakpoint(tablet){
+			width: 47%;
+		}
+		@include breakpoint(desktop){
+			width: 40%;
+		}
+		h2{
+			@include font-size(18, 11, 11);
+			@include letter-spacing(-40);
+			color:$color-white;
+		}
+	}
+}

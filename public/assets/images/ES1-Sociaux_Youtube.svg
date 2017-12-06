@@ -1,0 +1,73 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom_126);
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom_132);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_126" data-name="Dégradé sans nom 126" x1="17.13" y1="82.87" x2="82.87" y2="17.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0.29" stop-color="#b66b2d"/>
+      <stop offset="0.42" stop-color="#d37427"/>
+      <stop offset="0.56" stop-color="#ed7b22"/>
+      <stop offset="0.65" stop-color="#f77e20"/>
+      <stop offset="0.67" stop-color="#f78125"/>
+      <stop offset="0.69" stop-color="#f88a32"/>
+      <stop offset="0.72" stop-color="#f89949"/>
+      <stop offset="0.74" stop-color="#faad68"/>
+      <stop offset="0.77" stop-color="#fbc891"/>
+      <stop offset="0.8" stop-color="#fde8c2"/>
+      <stop offset="0.81" stop-color="#feffe6"/>
+      <stop offset="0.82" stop-color="#fef4d3"/>
+      <stop offset="0.83" stop-color="#fee3b8"/>
+      <stop offset="0.85" stop-color="#ffd5a2"/>
+      <stop offset="0.86" stop-color="#ffcb91"/>
+      <stop offset="0.88" stop-color="#ffc385"/>
+      <stop offset="0.91" stop-color="#ffbf7e"/>
+      <stop offset="0.98" stop-color="#ffbe7c"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_132" data-name="Dégradé sans nom 132" x1="37.06" y1="72.44" x2="62.97" y2="27.56" gradientUnits="userSpaceOnUse">
+      <stop offset="0.29" stop-color="#b66b2d"/>
+      <stop offset="0.42" stop-color="#d37427"/>
+      <stop offset="0.56" stop-color="#ed7b22"/>
+      <stop offset="0.65" stop-color="#f77e20"/>
+      <stop offset="0.8" stop-color="#f77f22"/>
+      <stop offset="0.86" stop-color="#f88429"/>
+      <stop offset="0.9" stop-color="#f98c34"/>
+      <stop offset="0.93" stop-color="#fa9845"/>
+      <stop offset="0.95" stop-color="#fca75b"/>
+      <stop offset="0.98" stop-color="#feba76"/>
+      <stop offset="0.98" stop-color="#ffbe7c"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M50,96.5A46.5,46.5,0,1,1,96.5,50,46.55,46.55,0,0,1,50,96.5ZM50,7.17A42.83,42.83,0,1,0,92.83,50,42.87,42.87,0,0,0,50,7.17Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path class="cls-2" d="M76.6,45.63v8.63c0,.31-.08.62-.08.92a37.73,37.73,0,0,1-.76,7,6.54,6.54,0,0,1-4.68,5.38,16.54,16.54,0,0,1-3.84.54c-4,.19-8,.41-11.94.44a237.75,237.75,0,0,1-24.61-.61,6.79,6.79,0,0,1-6.4-5.54,44.25,44.25,0,0,1-.76-6.17c-.15-3-.14-6-.12-9a47.74,47.74,0,0,1,.81-9.24,6.79,6.79,0,0,1,6.33-5.75c3.21-.25,6.42-.55,9.64-.59,9.73-.13,19.46-.35,29.18.56a6.62,6.62,0,0,1,6.18,5,39.67,39.67,0,0,1,.83,5.22C76.52,43.42,76.53,44.53,76.6,45.63ZM43.16,58.24,60,49.49,43.16,40.68Z"/>
+    </clipPath>
+  </defs>
+  <title>ES1-Sociaux</title>
+  <g>
+    <path class="cls-1" d="M50,96.5A46.5,46.5,0,1,1,96.5,50,46.55,46.55,0,0,1,50,96.5ZM50,7.17A42.83,42.83,0,1,0,92.83,50,42.87,42.87,0,0,0,50,7.17Z"/>
+    <g class="cls-3">
+      <path class="cls-1" d="M50,96.5A46.5,46.5,0,1,1,96.5,50,46.55,46.55,0,0,1,50,96.5ZM50,7.17A42.83,42.83,0,1,0,92.83,50,42.87,42.87,0,0,0,50,7.17Z"/>
+    </g>
+  </g>
+  <g>
+    <path class="cls-2" d="M76.6,45.63v8.63c0,.31-.08.62-.08.92a37.73,37.73,0,0,1-.76,7,6.54,6.54,0,0,1-4.68,5.38,16.54,16.54,0,0,1-3.84.54c-4,.19-8,.41-11.94.44a237.75,237.75,0,0,1-24.61-.61,6.79,6.79,0,0,1-6.4-5.54,44.25,44.25,0,0,1-.76-6.17c-.15-3-.14-6-.12-9a47.74,47.74,0,0,1,.81-9.24,6.79,6.79,0,0,1,6.33-5.75c3.21-.25,6.42-.55,9.64-.59,9.73-.13,19.46-.35,29.18.56a6.62,6.62,0,0,1,6.18,5,39.67,39.67,0,0,1,.83,5.22C76.52,43.42,76.53,44.53,76.6,45.63ZM43.16,58.24,60,49.49,43.16,40.68Z"/>
+    <g class="cls-4">
+      <path class="cls-2" d="M76.6,45.63v8.63c0,.31-.08.62-.08.92a37.73,37.73,0,0,1-.76,7,6.54,6.54,0,0,1-4.68,5.38,16.54,16.54,0,0,1-3.84.54c-4,.19-8,.41-11.94.44a237.75,237.75,0,0,1-24.61-.61,6.79,6.79,0,0,1-6.4-5.54,44.25,44.25,0,0,1-.76-6.17c-.15-3-.14-6-.12-9a47.74,47.74,0,0,1,.81-9.24,6.79,6.79,0,0,1,6.33-5.75c3.21-.25,6.42-.55,9.64-.59,9.73-.13,19.46-.35,29.18.56a6.62,6.62,0,0,1,6.18,5,39.67,39.67,0,0,1,.83,5.22C76.52,43.42,76.53,44.53,76.6,45.63ZM43.16,58.24,60,49.49,43.16,40.68Z"/>
+    </g>
+  </g>
+</svg>
