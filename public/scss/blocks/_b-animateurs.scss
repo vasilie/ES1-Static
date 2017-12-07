@@ -1,0 +1,85 @@
+.b-animateurs{
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 8%;
+	@include breakpoint(tablet){
+		padding: 0 5.7%;
+	}
+	@include breakpoint(desktop){
+		padding: 0 14.5%;
+	}
+	&__item{
+		width: 46%;
+		margin-bottom: 3.2rem;
+		@include breakpoint(tablet){
+			width: 28.8%;
+			margin-bottom: 4.2rem;
+		}
+		@include breakpoint(desktop){
+			width: 27.8%;
+			margin-bottom: 3.8rem;
+		}
+	}
+    &__inner{
+		position: relative;
+		border-radius: 100%;
+		border: cr(3) solid $yellow;  
+		img{
+			border-radius: 100%;
+			filter: grayscale(100%);
+			width: 100%;
+			transition: all .3s linear;
+		}  	
+		&:hover{
+			img{
+				filter: none;
+				transition: all .3s linear;
+			}
+			.b-animateurs__plus{
+				background: $yellow;
+				color: $color-white;
+				transition: all .3s linear;
+			}
+		}
+    }
+	&__plus{
+		position: absolute;
+		right: 0.7rem;
+    	bottom: 0rem;
+		border: cr(3) solid $yellow;
+		border-radius: 100%;	
+		background: $color-black;	
+		color: $yellow;
+		text-align: center;	
+		font-family: $GothamBold;
+		width: cr(60);
+		height: cr(60);
+		@include font-size(23, 36, 44);
+		@include line-height(30, 48, 60);
+		transition: all .3s linear;
+		@include breakpoint(tablet){
+			width: cr(48);
+			height: cr(48);
+		}
+		@include breakpoint(desktop){
+			width: cr(58);
+			height: cr(58);
+		}
+	}
+	&__title{
+		font-family: $SFUP;
+		text-align: center;
+		margin-top: 2rem;
+		@include font-size(14, 22, 27);
+		@include line-height(21, 34, 41);
+		color: $yellow;  
+		letter-spacing: cr(0.8);
+		@include breakpoint(tablet){
+			margin-top: 1.6rem;
+		}
+		@include breakpoint(desktop){
+			margin-top: 1.9rem;
+		}
+	}
+}
