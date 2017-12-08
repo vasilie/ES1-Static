@@ -1,0 +1,61 @@
+.b-lesTags{
+	padding: 0 12.2%;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    z-index: 1;
+	@include breakpoint(tablet){
+		padding: 0 11.7%;
+		margin: 0 -4rem 0 -4rem;
+	}
+	@include breakpoint(desktop){
+		padding: 0 9.5%;
+		margin: 0 -5rem 0 -5rem;
+	}
+	&__wrap{
+		width: 36%;
+		margin-bottom: 3.2rem;
+		@include breakpoint(tablet){
+			width: 33%;
+			padding: 0 4rem;
+			margin-bottom: 5.7rem;
+			&:last-child{
+				margin-right: auto;
+			}
+		}
+		@include breakpoint(desktop){
+			width: 25%;
+			padding: 0 5rem;
+			margin-bottom: 7.5rem;
+		}
+	}
+	&__letter{
+		font-family: $SFUP;
+		@include font-size(37.6, 63, 75);
+		@include line-height(40, 63, 75);
+		text-shadow:-1px -1px 0 $blue, 
+    			1px -1px 0 $blue, 
+    			-1px 1px 0 $blue, 
+    			1px 1px 0 $blue,
+    			0px 0px 17px $blue;
+		color: #000;
+		margin-bottom: 1.2rem;
+		@include breakpoint(tablet){
+			margin-bottom: 1.7rem;
+		}
+		@include breakpoint(desktop){
+			margin-bottom: 1.9rem;
+		}
+	}
+	&__link{
+		color: $color-white;
+		font-family: $SFUP;
+		@include font-size(12, 15, 18);
+		@include line-height(24, 27, 32);
+		letter-spacing: 0.08rem;
+		@include breakpoint(tablet){
+			letter-spacing: 0.05rem;
+		}
+	}
+}

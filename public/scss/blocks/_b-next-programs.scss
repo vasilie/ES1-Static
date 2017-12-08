@@ -19,10 +19,23 @@
 		.c-section__title{
 			padding: 5.8rem 0 1.7rem 0;
 			opacity: .7;
-			// text-shadow: -1px -1px 0.1px rgba(22, 165, 222, 1), 1px 1px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 72px rgba(22, 165, 222, 0.7);
-    		-webkit-text-stroke: 0.2rem rgba(22, 165, 222, 1);
+			text-shadow:-2px -2px 0 #0077ff, 
+						2px -2px 0 #0077ff, 
+						-2px 2px 0 #0077ff, 
+						2px 2px 0 #0077ff, 
+						2px 3px 58px #002dff;
+    		filter: brightness(200%);
+    		&__circle{
+    			box-shadow: 0 0 115px 70px rgba(22, 165, 222, 0.7);
+			    top: 8rem;
+			    background: rgba(22, 165, 222, 0.7);
+			    border-radius: 30px;	
+				@include breakpoint(desktop){					
+				    width: 25rem;
+				    height: 0rem;
+				}			
+    		}
 			@include breakpoint(tablet){
-				-webkit-text-stroke: 0.1rem rgba(22, 165, 222, 1);
 				padding-bottom: 3rem;
 			}
 		}

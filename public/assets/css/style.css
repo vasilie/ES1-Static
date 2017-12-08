@@ -306,10 +306,19 @@ strong, b {
     .b-next-programs__wrap .c-section__title {
       padding: 5.8rem 0 1.7rem 0;
       opacity: .7;
-      -webkit-text-stroke: 0.2rem #16a5de; }
+      text-shadow: -2px -2px 0 #0077ff,  2px -2px 0 #0077ff,  -2px 2px 0 #0077ff,  2px 2px 0 #0077ff,  2px 3px 58px #002dff;
+      filter: brightness(200%); }
+      .b-next-programs__wrap .c-section__title__circle {
+        box-shadow: 0 0 115px 70px rgba(22, 165, 222, 0.7);
+        top: 8rem;
+        background: rgba(22, 165, 222, 0.7);
+        border-radius: 30px; }
+        @media (min-width: 1025px) {
+          .b-next-programs__wrap .c-section__title__circle {
+            width: 25rem;
+            height: 0rem; } }
       @media (min-width: 768px) {
         .b-next-programs__wrap .c-section__title {
-          -webkit-text-stroke: 0.1rem #16a5de;
           padding-bottom: 3rem; } }
   @media (min-width: 1025px) {
     .b-next-programs--shp {
@@ -402,22 +411,22 @@ strong, b {
     transition: all .3s linear; }
     @media (max-width: 767px) {
       .b-animateurs__plus {
-        font-size: 23px; } }
+        font-size: 2.875rem; } }
     @media (min-width: 768px) {
       .b-animateurs__plus {
-        font-size: 36px; } }
+        font-size: 2.25rem; } }
     @media (min-width: 1025px) {
       .b-animateurs__plus {
-        font-size: 44px; } }
+        font-size: 2.75rem; } }
     @media (max-width: 767px) {
       .b-animateurs__plus {
-        line-height: 30px; } }
+        line-height: 3.75rem; } }
     @media (min-width: 768px) {
       .b-animateurs__plus {
-        line-height: 48px; } }
+        line-height: 3rem; } }
     @media (min-width: 1025px) {
       .b-animateurs__plus {
-        line-height: 60px; } }
+        line-height: 3.75rem; } }
     @media (min-width: 768px) {
       .b-animateurs__plus {
         width: 3rem;
@@ -457,6 +466,91 @@ strong, b {
       .b-animateurs__title {
         margin-top: 1.9rem; } }
 
+.b-lesTags {
+  padding: 0 12.2%;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  z-index: 1; }
+  @media (min-width: 768px) {
+    .b-lesTags {
+      padding: 0 11.7%;
+      margin: 0 -4rem 0 -4rem; } }
+  @media (min-width: 1025px) {
+    .b-lesTags {
+      padding: 0 9.5%;
+      margin: 0 -5rem 0 -5rem; } }
+  .b-lesTags__wrap {
+    width: 36%;
+    margin-bottom: 3.2rem; }
+    @media (min-width: 768px) {
+      .b-lesTags__wrap {
+        width: 33%;
+        padding: 0 4rem;
+        margin-bottom: 5.7rem; }
+        .b-lesTags__wrap:last-child {
+          margin-right: auto; } }
+    @media (min-width: 1025px) {
+      .b-lesTags__wrap {
+        width: 25%;
+        padding: 0 5rem;
+        margin-bottom: 7.5rem; } }
+  .b-lesTags__letter {
+    font-family: "SFSports Night Upright", sans-serif;
+    text-shadow: -1px -1px 0 #23bcea, 1px -1px 0 #23bcea, -1px 1px 0 #23bcea, 1px 1px 0 #23bcea, 0px 0px 17px #23bcea;
+    color: #000;
+    margin-bottom: 1.2rem; }
+    @media (max-width: 767px) {
+      .b-lesTags__letter {
+        font-size: 37.6px; } }
+    @media (min-width: 768px) {
+      .b-lesTags__letter {
+        font-size: 63px; } }
+    @media (min-width: 1025px) {
+      .b-lesTags__letter {
+        font-size: 75px; } }
+    @media (max-width: 767px) {
+      .b-lesTags__letter {
+        line-height: 40px; } }
+    @media (min-width: 768px) {
+      .b-lesTags__letter {
+        line-height: 63px; } }
+    @media (min-width: 1025px) {
+      .b-lesTags__letter {
+        line-height: 75px; } }
+    @media (min-width: 768px) {
+      .b-lesTags__letter {
+        margin-bottom: 1.7rem; } }
+    @media (min-width: 1025px) {
+      .b-lesTags__letter {
+        margin-bottom: 1.9rem; } }
+  .b-lesTags__link {
+    color: #ffff;
+    font-family: "SFSports Night Upright", sans-serif;
+    letter-spacing: 0.08rem; }
+    @media (max-width: 767px) {
+      .b-lesTags__link {
+        font-size: 12px; } }
+    @media (min-width: 768px) {
+      .b-lesTags__link {
+        font-size: 15px; } }
+    @media (min-width: 1025px) {
+      .b-lesTags__link {
+        font-size: 18px; } }
+    @media (max-width: 767px) {
+      .b-lesTags__link {
+        line-height: 24px; } }
+    @media (min-width: 768px) {
+      .b-lesTags__link {
+        line-height: 27px; } }
+    @media (min-width: 1025px) {
+      .b-lesTags__link {
+        line-height: 32px; } }
+    @media (min-width: 768px) {
+      .b-lesTags__link {
+        letter-spacing: 0.05rem; } }
+
 .b-resultats {
   display: block; }
 
@@ -469,11 +563,11 @@ strong, b {
   font-family: "SFSports Night Upright", sans-serif;
   text-align: center;
   padding: 5.1rem 0 3rem 0;
-  text-shadow: -1px -1px 0.1px rgba(22, 165, 222, 0.8), 1px 1px 0.1px rgba(22, 165, 222, 0.8), 3px 4px 72px rgba(22, 165, 222, 0.7);
-  -webkit-text-stroke: 0.09rem rgba(22, 165, 222, 0.8);
+  text-shadow: -1px -1px 0 #23bcea, 1px -1px 0 #23bcea, -1px 1px 0 #23bcea, 1px 1px 0 #23bcea, 0px 0px 17px #23bcea;
   color: #000;
   text-transform: uppercase;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   @media (max-width: 767px) {
     .c-section__title {
       font-size: 32px; } }

@@ -55,8 +55,8 @@
 		font-family: $GothamBold;
 		width: cr(60);
 		height: cr(60);
-		@include font-size(23, 36, 44);
-		@include line-height(30, 48, 60);
+		@include font-size-rem(46, 36, 44);
+		@include line-height-rem(60, 48, 60);
 		transition: all .3s linear;
 		@include breakpoint(tablet){
 			width: cr(48);
