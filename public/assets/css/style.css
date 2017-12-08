@@ -500,7 +500,8 @@ strong, b {
     font-family: "SFSports Night Upright", sans-serif;
     text-shadow: -1px -1px 0 #23bcea, 1px -1px 0 #23bcea, -1px 1px 0 #23bcea, 1px 1px 0 #23bcea, 0px 0px 17px #23bcea;
     color: #000;
-    margin-bottom: 1.2rem; }
+    margin-bottom: 1.2rem;
+    text-transform: uppercase; }
     @media (max-width: 767px) {
       .b-lesTags__letter {
         font-size: 37.6px; } }

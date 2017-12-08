@@ -41,6 +41,7 @@
     			0px 0px 17px $blue;
 		color: #000;
 		margin-bottom: 1.2rem;
+		text-transform: uppercase;
 		@include breakpoint(tablet){
 			margin-bottom: 1.7rem;
 		}
