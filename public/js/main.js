@@ -18,7 +18,7 @@ $(".b-prochains__slider").slick({
   }
 ]
 });
-$(".b-resultats__tags").slick({
+$(".c-type-selector").slick({
   slidesToShow:5,
 })
 $(".b-resultats__dates").slick({
