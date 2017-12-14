@@ -552,6 +552,21 @@ strong, b {
       .b-lesTags__link {
         letter-spacing: 0.05rem; } }
 
+.b-social-wall {
+  width: 100%; }
+
+@media (min-width: 1025px) {
+  .b-social-wall__wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%; } }
+
+@media (min-width: 1025px) {
+  .b-social-wall__division {
+    width: 50%;
+    float: left;
+    padding: 2%; } }
+
 .b-resultats {
   display: block; }
 
@@ -1247,6 +1262,40 @@ strong, b {
 
 .o-resultats__team__logo {
   float: left; }
+
+.o-social-wall {
+  display: block;
+  margin-bottom: 10%; }
+  .o-social-wall.twitter .o-social-wall__title:before {
+    background-image: url(/assets/img/twitter-ico.png); }
+  .o-social-wall.fb .o-social-wall__title:before {
+    left: -22px;
+    background-image: url(/assets/img/fb-ico.png); }
+  .o-social-wall.youtube .o-social-wall__title:before {
+    background-image: url(/assets/img/yt-ico.png); }
+  .o-social-wall.insta .o-social-wall__title:before {
+    background-image: url(/assets/img/insta-ico.png); }
+
+.o-social-wall__video {
+  width: 100%; }
+  .o-social-wall__video iframe {
+    width: 100%; }
+
+.o-social-wall__title {
+  position: relative;
+  margin-bottom: 3%; }
+  .o-social-wall__title b {
+    font-weight: 900; }
+  .o-social-wall__title:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    left: -25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; }
 
 .page-homepage .header {
   margin-bottom: 15.5%; }

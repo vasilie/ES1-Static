@@ -18,7 +18,11 @@ $assetPath: "/assets";
 @import "blocks/b-hero-highlights";
 @import "blocks/b-prochains";
 @import "blocks/b-animateurs";
+
 @import "blocks/b-lesTags";
+
+@import "blocks/b-social-wall";
+
 @import "blocks/b-resultats";
 
 @import "components/c-section-title";
@@ -30,6 +34,7 @@ $assetPath: "/assets";
 @import "objects/o-next-program";
 @import "objects/o-prochains";
 @import "objects/o-resultats";
+@import "objects/o-social-wall";
 
 @import "pages/page-homepage";
 @import "pages/p-programSHP";
